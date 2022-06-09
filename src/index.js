@@ -4,7 +4,7 @@ function component() {
 	const element = document.createElement('div');
 
 	// Lodash, currently included via a script, is required for this line to work
-	element.innerHTML = _.join(['hi', 'webpack'], ' ');
+	element.innerHTML = _.join(['ting', 'wawa'], ' ');
 
 	return element;
 }
